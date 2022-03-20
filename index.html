@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Covi-Helpers</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <nav id="navb" class="navbar navbar-light bg-warning px-3">
+            <a class="navbar-brand" href="#">Covi-Helpers</a>
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#graph">Covid-19 Graph</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#register">Registration</a>
+                </li>
+
+            </ul>
+        </nav>
+        <div data-bs-spy="scroll" data-bs-target="#navb" data-bs-offset="0" class="scrollspy" tabindex="0">
+            <div class="abt">
+                <div class="des">
+                    <h4 class="heading" id="about">About</h4>
+                    <ul class="list">
+                        <li>We are here to provide you the graphical data of COVID-19 statistical data</li>
+                        <li>Provide the code of the required country in the box below and click the below get button. Eg: India = IN, China = CN</li>
+                        <li>We aslo help you with your registration to vaccine and guide you to download your certificate</li>
+                        <li>We aslo provide you goverment help line services</li>
+                        <li>For worldwide graph type as global</li>
+                        <li>For PIE-Graph of 5 countries that has highest number of cases type compare</li>
+                    </ul>
+                </div>
+                <img class="cimg" src="https://www.mygov.in/sites/all/themes/mygov/images/covid/covid-share.jpg" alt="corona helpline">
+            </div>
+            <hr>
+            <div class="cgraph">
+                <h4 class="heading" id="graph">Covid-19 Graph</h4>
+                <form>
+                    <br>
+                    <input type="text" placeholder="Country code : IN" name="" id="code">
+                    <input type="button" value="submit" onClick="graph()"><br><br>
+                    <h6 class="note">NOTE: <span>Enter the code of the country to view corona update graph. Eg: India = IN, United states = US, worldwide = global, Top 5 = compare, default graph is world wide</span></h6>
+                </form>
+                <img id="gimg" src="https://corona.dnsforfamily.com/graph.png?c=global" alt="404 Error - Please enter the correct code">
+            </div>
+            <hr>
+            <div class="register">
+                <h4 class="heading" id="register">Registration</h4>
+                <h6 class="note">Please use the folowing links for registration and vaccine download</h6>
+                <br>
+                <div class="reg">
+                    <div class="cowin">
+                        <a class="btn btn-success" href="https://www.cowin.gov.in/" role="button" target="_blank">Co-WIN</a>
+                    </div>
+                    <div class="AS">
+                        <a class="btn btn-primary" href="https://www.aarogyasetu.gov.in" role="button" target="_blank">Aarogya Setu</a>
+                    </div>
+                    <div class="vaccine">
+                        <a class="btn btn-warning" href="https://selfregistration.cowin.gov.in/" role="button" target="_blank">Vaccine downlod</a>
+                    </div>
+                    <div class="help">
+                        <a class="btn btn-info" href="https://www.mohfw.gov.in/pdf/coronvavirushelplinenumber.pdf" role="button" target="_blank">HelpLine</a>
+                    </div>
+                </div>
+            </div>
+            <br><br><br>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
