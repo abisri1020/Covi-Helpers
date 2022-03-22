@@ -1,0 +1,85 @@
+/* #navb {
+    position: sticky;
+    top: 0;
+} */
+
+h4 {
+    font-weight: bolder;
+}
+
+.abt {
+    margin-left: 150px;
+    margin-right: 150px;
+    /* display: flex;
+    justify-content: space-around; */
+}
+
+.cimg {
+    width: 400px;
+    object-fit: contain;
+    text-align: center;
+}
+
+.scrollspy {
+    margin-top: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar-brand {
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+}
+
+.nav-link {
+    color: navy;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2rem;
+}
+
+.heading {
+    color: navy;
+    /* text-align: center; */
+    font-size: 2rem;
+}
+
+.note {
+    color: red;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cgraph {
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+}
+
+span {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+
+/* .reg {
+    display: flex;
+    justify-content: space-around;
+} */
+
+.btn {
+    padding: 30px;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    color: black;
+}
+
+.btn:hover {
+    color: white;
+}
+
+.register {
+    text-align: center;
+}
